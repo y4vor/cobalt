@@ -18,3 +18,9 @@ enable_nacl = false
 
 # Overriding the flag from //ui/gl/features.gni
 use_static_angle = true
+
+# Disable udev
+use_udev = false
+
+use_glib = false
+rtc_use_pipewire = false
