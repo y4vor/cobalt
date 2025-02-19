@@ -353,7 +353,7 @@ void PlatformThread::Detach(PlatformThreadHandle thread_handle) {
 
 // static
 bool PlatformThread::CanChangeThreadType(ThreadType from, ThreadType to) {
-#if BUILDFLAG(IS_NACL)
+#if BUILDFLAG(IS_NACL) || BUILDFLAG(IS_STARBOARD)
   return false;
 #else
   if (from >= to) {

@@ -494,7 +494,7 @@ void TaskEnvironment::InitializeThreadPool() {
 void TaskEnvironment::CompleteInitialization() {
   DCHECK_CALLED_ON_VALID_THREAD(main_thread_checker_);
 
-#if BUILDFLAG(IS_POSIX) || BUILDFLAG(IS_FUCHSIA)
+#if BUILDFLAG(IS_POSIX) && !BUILDFLAG(IS_STARBOARD) || BUILDFLAG(IS_FUCHSIA)
   if (main_thread_type() == MainThreadType::IO) {
     file_descriptor_watcher_ =
         std::make_unique<FileDescriptorWatcher>(GetMainThreadTaskRunner());
