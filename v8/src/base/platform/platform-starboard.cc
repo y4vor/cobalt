@@ -28,6 +28,10 @@
 
 #include "sys/mman.h"
 
+#if defined(ANDROID) || V8_OS_LINUX
+#include <sys/prctl.h>
+#endif
+
 namespace v8 {
 namespace base {
 
@@ -181,6 +185,15 @@ void* OS::Allocate(void* address, size_t size, size_t alignment,
   }
 
   DCHECK_EQ(size, request_size);
+
+#if defined(ANDROID) || V8_OS_LINUX
+#if defined(PR_SET_VMA) && defined(PR_SET_VMA_ANON_NAME)
+  if (aligned_base != nullptr) {
+    prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, aligned_base, size, "v8");
+  }
+#endif
+#endif
+
   return static_cast<void*>(aligned_base);
 }
 
