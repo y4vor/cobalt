@@ -63,6 +63,8 @@ source_set("browser") {
     "//cobalt/browser/h5vcc_platform_service/public/mojom",
     "//cobalt/browser/h5vcc_runtime",
     "//cobalt/browser/h5vcc_runtime/public/mojom",
+    "//cobalt/browser/h5vcc_settings",
+    "//cobalt/browser/h5vcc_settings/public/mojom",
     "//cobalt/browser/h5vcc_storage",
     "//cobalt/browser/h5vcc_storage/public/mojom",
     "//cobalt/browser/h5vcc_system",
@@ -139,6 +141,7 @@ source_set("global_features") {
     "//components/metrics_services_manager",
     "//components/prefs",
     "//components/variations",
+    "//third_party/abseil-cpp:absl",
   ]
 }
 
