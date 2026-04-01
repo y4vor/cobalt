@@ -1376,7 +1376,7 @@ Du wirst sonst gemäß deinen Datenschutzeinstellungen blockiert. Wenn Cookies u
 <translation id="3223287115535306850">Ladesymbol beim Starten der App</translation>
 <translation id="3223425961342298674">Standortermittlung nicht zulässig</translation>
 <translation id="3225919329040284222">Der Server hat ein Zertifikat übermittelt, das nicht mit den integrierten Erwartungen übereinstimmt. Diese Erwartungen sind zu deinem Schutz in bestimmten Websites mit hohen Sicherheitsstandards enthalten.</translation>
-<translation id="3226128629678568754">Klicke auf die Schaltfläche zum erneuten Laden, um die für das Laden der Seite erforderlichen Daten noch einmal zu senden.</translation>
+<translation id="3226128629678568754">Klicke auf den Button zum erneuten Laden, um die für das Laden der Seite erforderlichen Daten noch einmal zu senden.</translation>
 <translation id="3226387218769101247">Miniaturansichten</translation>
 <translation id="3227137524299004712">Mikrofon</translation>
 <translation id="3229041911291329567">Versionsinformationen zu deinem Gerät und Browser</translation>
@@ -4083,7 +4083,7 @@ Weitere Details:
 <translation id="7569983096843329377">Schwarz</translation>
 <translation id="7571813784389228510">„Google AI“-Modus</translation>
 <translation id="7574998639136359461">Wintersportausrüstung</translation>
-<translation id="7575207903026901870">Schaltfläche "Vorschlag entfernen", zum Entfernen dieses Vorschlags Eingabetaste drücken</translation>
+<translation id="7575207903026901870">Button „Vorschlag entfernen“, zum Entfernen dieses Vorschlags Eingabetaste drücken</translation>
 <translation id="7575800019233204241">"Dies ist keine sichere Verbindung", "&lt;span class="error-code"&gt;NET::ERR_CERT_AUTHORITY_INVALID&lt;/span&gt;", "&lt;span class="error-code"&gt;ERR_CERT_COMMON_NAME_INVALID&lt;/span&gt;", "&lt;span class="error-code"&gt;NET::ERR_CERT_WEAK_SIGNATURE_ALGORITHM&lt;/span&gt;" oder "SSL-Zertifikatfehler"</translation>
 <translation id="7575887283389198269">Smartphones</translation>
 <translation id="7578104083680115302">Mit Karten, die du bei Google gespeichert hast, kannst du schnell und geräteübergreifend auf Websites und in Apps bezahlen.</translation>
@@ -4881,7 +4881,7 @@ Weitere Details:
 <translation id="8897428486789851669">Schwimmen</translation>
 <translation id="8899807382908246773">Aufdringliche Anzeigen</translation>
 <translation id="8903921497873541725">Vergrößern</translation>
-<translation id="890493561996401738">Schaltfläche "Vorschlag entfernen", zum Entfernen Eingabetaste drücken, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
+<translation id="890493561996401738">Button „Vorschlag entfernen“, zum Entfernen Eingabetaste drücken, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8910898109640902752">8 × 10 in</translation>
 <translation id="8914504000324227558">Chrome neu starten</translation>
 <translation id="8918062451146297192">CVC für virtuelle Karte</translation>
