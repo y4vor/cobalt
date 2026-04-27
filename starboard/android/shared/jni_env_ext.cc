@@ -29,9 +29,9 @@ JavaVM* g_vm = NULL;
 jobject g_application_class_loader = NULL;
 jobject g_starboard_bridge = NULL;
 
-void Destroy(void* value) {
-  if (value != NULL) {
-    starboard::android::shared::JniEnvExt::OnThreadShutdown();
+void Destroy(void* p) {
+  if (p) {
+    g_vm->DetachCurrentThread();
   }
 }
 
